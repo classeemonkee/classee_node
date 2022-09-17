@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+.caveat {
+    font-family: 'Caveat', cursive;
+}
+
+body {
+    background-color: #edfcf3;
+    @apply caveat font-sans;
+}
